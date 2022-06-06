@@ -1,25 +1,28 @@
 ### High-level description of change
 
-_REPLACE THIS: Describe what bug you're fixing. (We are not currently adding features).
-Reference the issue number or ZenDesk ticket if one exists._
+    Make "maintenance mode" and submission of PRs (pull requests) less ambiguous
+    Include License directly in the Readme
+    Include "Who it's For" and "Goal" sections
+    Update "How to run" and "How to build" sections
+
+Issue #755
 
 ### Are there performance implications for this change?
 
-_REPLACE THIS: Please profile using time/timeEnd any potentially time-taking changes.
-Then profile using node profiler to identify what aspects take most time._
+None, this is simply an edit of the readme file.
 
 ### Have you added tests to cover this new/updated code?
 
-_REPLACE THIS: Note what tests you added, and if tests aren't possible, explain why not._
+No tests needed, this is an edit of the README file only.
 
 ### Risks involved
 
-_REPLACE THIS: Note anything that could go wrong. Good opportunity to think through edge cases._
+No risks other than approval of README changes.
 
 ### Are there any dependencies or blockers for merging this?
 
-_REPLACE THIS: Note any branches that must be merged elsewhere._
+No code related files are changed in any way.
 
 ### How can we verify that this change works?
 
-_REPLACE THIS: Describe how we can check this change works for the user from end to end, like with example programs._
+Only reading and approving the README file are needed. Updates to the How to Build and How to Test portions can be verified with the included code snippets.
